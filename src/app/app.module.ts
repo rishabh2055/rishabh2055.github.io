@@ -1,8 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { AngularAgoraRtcModule, AgoraConfig } from 'angular-agora-rtc';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
+// Agora credentials
+const agoraConfig: AgoraConfig = {
+  AppID: 'a6a14abc71fa4faf9328b9d29b5adb95',
+};
 
 @NgModule({
   declarations: [
@@ -10,7 +15,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AngularAgoraRtcModule.forRoot(agoraConfig)
   ],
   providers: [],
   bootstrap: [AppComponent]
