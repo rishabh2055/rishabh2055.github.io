@@ -1,5 +1,5 @@
 # video-calling-app
-Run : npm install
+Run : npm install 
 Run : ng serve --o
 Click on Start Call button to start a video call
 To join this call you need to run same application on different tab or on a different browser
