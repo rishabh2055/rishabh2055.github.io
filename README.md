@@ -19,4 +19,3 @@ In that page click on Start video button.
 
 Now Video calling session is created. We can run it in more than 2 tabs or browsers also. All streams will be visible below.
 
-## end
